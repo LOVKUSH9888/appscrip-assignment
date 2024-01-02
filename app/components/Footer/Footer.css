@@ -1,0 +1,61 @@
+.love-reactangle {
+  width: 100%;
+  height: 750px;
+  flex-shrink: 0;
+  background-color: #000;
+}
+
+h3 {
+  color: var(--Misc-White, #fff);
+  font-family: Simplon Norm;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+p {
+  color: var(--Misc-White, #fff);
+  font-family: Simplon Norm;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.love-row {
+  padding-top: 79;
+}
+
+.input {
+  width: 584px;
+  height: 48px;
+  background: #fff;
+  padding: 14px 24px;
+  align-items: center;
+  gap: 8px;
+}
+
+button {
+  border-radius: 5px;
+  border: 1.143px solid var(--Misc-White, #fff);
+  opacity: 0.3;
+  background: var(--Misc-Black, #000);
+  width: 184px;
+  height: 48px;
+  color: #fff;
+
+  font-family: Simplon Norm;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
