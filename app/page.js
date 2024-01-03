@@ -1,4 +1,5 @@
 import FetchedData from "./components/FetchedData/FetchedData";
+import FilterandSort from "./components/FilterandSort/FilterandSort";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import ProHead from "./components/Heading/ProHead";
@@ -12,6 +13,8 @@ export default function Home() {
       {/* Heading */}
       <ProHead/>
       {/* Main */}
+      <FilterandSort/>
+
       <FetchedData/>
       {/* Footer */}
       <Footer />
