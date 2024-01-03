@@ -3,7 +3,7 @@ import React from "react";
 const Menu = () => {
   return (
     <>
-      <div className="menu">
+      <div className="menu border-bottom border-3 pb-2 pt-3">
         <div className="mega-menu h-100">
           <nav className="navbar navbar-expand-lg navbar-light justify-content-lg-center justify-content-between h-100">
             <button
@@ -22,7 +22,7 @@ const Menu = () => {
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item dropdown dropdown-mega position-static megaMenuContainer">
                   <a
-                    href="/discover-our-products"
+                    href="http://localhost:3000/pages/shop"
                     target="_self"
                     className="nav-link active"
                   >
@@ -33,9 +33,6 @@ const Menu = () => {
                       <div className="container px-0">
                         <div className="d-flex">
                           {/* ... (existing content in the mega-menu) */}
-                          <p>wfmiimnf</p>
-                          <p>wfmiimnf</p>
-                          <p>wfmiimnf</p>
                         </div>
                       </div>
                     </div>
@@ -53,7 +50,7 @@ const Menu = () => {
                 </li>
                 <li className="nav-item">
                   <a
-                    href="https://beta.mettamuse.com/stories"
+                    href="http://localhost:3000/pages/stories"
                     target="_self"
                     className="nav-link"
                   >
@@ -62,7 +59,7 @@ const Menu = () => {
                 </li>
                 <li className="nav-item">
                   <a
-                    href="https://beta.mettamuse.com/aboutus"
+                    href="http://localhost:3000/pages/about"
                     target="_self"
                     className="nav-link"
                   >
@@ -71,7 +68,7 @@ const Menu = () => {
                 </li>
                 <li className="nav-item">
                   <a
-                    href="https://beta.mettamuse.com/contactus"
+                    href="http://localhost:3000/pages/contact"
                     target="_self"
                     className="nav-link"
                   >

@@ -1,20 +1,20 @@
+import FetchedData from "./components/FetchedData/FetchedData";
 import Footer from "./components/Footer/Footer";
-import MainHeader from "./components/Header/MainHeader/MainHeader";
-import Menu from "./components/Header/Menu/Menu";
-import TopHeader from "./components/Header/TopHeader/TopHeader";
+import Header from "./components/Header/Header";
+import ProHead from "./components/Heading/ProHead";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <>
       {/* Header */}
-      <TopHeader/>
-      <MainHeader/>
-      <Menu/>
+      <Header />
+      {/* Heading */}
+      <ProHead/>
       {/* Main */}
-
+      <FetchedData/>
       {/* Footer */}
-      <Footer/>
+      <Footer />
     </>
   );
 }

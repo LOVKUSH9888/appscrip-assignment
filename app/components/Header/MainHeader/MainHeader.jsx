@@ -5,7 +5,7 @@ import Menu from "../Menu/Menu";
 
 const MainHeader = () => {
   return (
-    <div className="main-header">
+    <div className="main-header m-2 m-2">
       <div className="container px-0">
         <div className="d-flex justify-content-between align-items-center px-md-4 px-lg-0 px-xl-0">
           <div className="col-lg-2 col-md-2 col-xl-3 d-flex justify-content-start homeIconLogo">
