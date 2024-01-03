@@ -1,0 +1,38 @@
+.topheader {
+  padding: 8px 274px;
+  background-color: #000;
+  font-family: Simplon Norm;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.col-4 {
+  color: #eb4c6b;
+}
+
+.logo {
+  color: #000;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+.animated-text {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

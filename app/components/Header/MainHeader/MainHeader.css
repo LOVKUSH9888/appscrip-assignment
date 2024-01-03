@@ -1,0 +1,22 @@
+/* MainHeader.module.css */
+
+.language-container {
+    position: relative;
+  }
+  
+  .eng-popup {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  .eng-popup.visible {
+    opacity: 1;
+    max-height: 20px; /* Adjust as needed */
+  }
+  
