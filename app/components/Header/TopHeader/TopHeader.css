@@ -36,3 +36,23 @@
     transform: translateX(-100%);
   }
 }
+
+
+/* media query */
+@media (min-width: 768px) and (max-width: 991px) {
+  .lov-col {
+    display: inline-block;
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+}
+
+/* Custom styles for screens between 992px and 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Add your styles here */
+}
+
+/* Custom styles for screens larger than 1200px */
+@media (min-width: 1200px) {
+  /* Add your styles here */
+}
