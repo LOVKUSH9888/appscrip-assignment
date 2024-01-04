@@ -23,38 +23,38 @@ const MainHeader = () => {
             <nav className="navbar navbar-expand-lg">
               <div className="navbar-collapse gap-3" id="navbarNav">
                 <Image
-                  src="/searchlol.png"
+                  src="/search123.png"
                   width={24}
                   height={24}
                   alt="American Express"
                 />
                 <Image
-                  src="/heartlol.png"
+                  src="/heart-1.png"
                   width={24}
                   height={24}
                   alt="American Express"
                 />
                 <Image
-                  src="/baglol.png"
+                  src="/bag1.png"
                   width={24}
                   height={24}
                   alt="American Express"
                 />
                 <Image
-                  src="/profilelol.png"
+                  src="/profile1.png"
                   width={24}
                   height={24}
                   alt="American Express"
                 />
 
                 <Image
-                  src="/englol.png"
+                  src="/eng1.png"
                   width={31}
                   height={11}
                   alt="American Express"
                 />
                 <Image
-                  src="/arrowlol.png"
+                  src="/arrow1.png"
                   width={16}
                   height={16}
                   alt="American Express"
