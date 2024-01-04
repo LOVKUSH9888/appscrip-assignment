@@ -1,17 +1,15 @@
 import "./globals.css";
-import { Inter } from 'next/font/google'
- 
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: "metta muse",
-  description: "messa muse an ecommerce solution",
+  description:
+    "Explore metta muse, a cutting-edge ecommerce web app designed to elevate your online shopping experience. Discover a wide range of products, seamless navigation, and secure transactions. Transform your online retail journey with Metta Muse.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
