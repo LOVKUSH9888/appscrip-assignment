@@ -32,7 +32,7 @@ const Menu = () => {
                     <div className="mega-content">
                       <div className="container px-0">
                         <div className="d-flex">
-                          {/* ... (existing content in the mega-menu) */}
+                          {/* Mega menu content */}
                         </div>
                       </div>
                     </div>

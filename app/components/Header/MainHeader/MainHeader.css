@@ -17,6 +17,35 @@
   
   .eng-popup.visible {
     opacity: 1;
-    max-height: 20px; /* Adjust as needed */
+    max-height: 20px; 
   }
   
+/* Media Queries */
+/* Extra small devices (phones) */
+@media only screen and (max-width: 575.98px) {
+  /* Your styles for extra small screens go here */
+}
+
+/* Small devices (tablets) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* Your styles for small screens go here */
+}
+
+/* Medium devices (desktops) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .love-img{
+    display: none;
+  }
+}
+
+/* Large devices (desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* Your styles for large screens go here */
+}
+
+/* Extra large devices (large desktops) */
+@media only screen and (min-width: 1200px) {
+  .love-img {
+    display: block;
+  }
+}

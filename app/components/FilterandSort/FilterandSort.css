@@ -52,3 +52,22 @@ col {
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
+
+
+  /* media queries */
+  /* Media Queries */
+/* Extra small devices (phones) */
+@media only screen and (max-width: 575.98px) {
+  
+}
+
+/* Small devices (tablets) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  
+}
+
+/* Medium devices (desktops) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  
+}
+

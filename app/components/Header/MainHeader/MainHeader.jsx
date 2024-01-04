@@ -1,7 +1,6 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
-import Menu from "../Menu/Menu";
 
 const MainHeader = () => {
   return (
@@ -22,44 +21,57 @@ const MainHeader = () => {
           <div className="col-lg-3 col-xl-3 d-flex justify-content-end p-0 homePage_icons">
             <nav className="navbar navbar-expand-lg">
               <div className="navbar-collapse gap-3" id="navbarNav">
-                <Image
-                  src="/search123.png"
-                  width={24}
-                  height={24}
-                  alt="American Express"
-                />
-                <Image
-                  src="/heart-1.png"
-                  width={24}
-                  height={24}
-                  alt="American Express"
-                />
-                <Image
-                  src="/bag1.png"
-                  width={24}
-                  height={24}
-                  alt="American Express"
-                />
-                <Image
-                  src="/profile1.png"
-                  width={24}
-                  height={24}
-                  alt="American Express"
-                />
-
-                <Image
-                  src="/eng1.png"
-                  width={31}
-                  height={11}
-                  alt="American Express"
-                />
-                <Image
-                  src="/arrow1.png"
-                  width={16}
-                  height={16}
-                  alt="American Express"
-                  style={{ cursor: "pointer" }}
-                />
+                <a href="">
+                  <Image
+                    src="/search123.png"
+                    width={24}
+                    height={24}
+                    alt="American Express"
+                  />
+                </a>
+                <a href="">
+                  <Image
+                    src="/heart-1.png"
+                    width={24}
+                    height={24}
+                    alt="American Express"
+                  />
+                </a>
+                <a href="">
+                  <Image
+                    src="/bag1.png"
+                    width={24}
+                    height={24}
+                    alt="American Express"
+                  />
+                </a>
+                <a href="">
+                  <Image
+                    src="/profile1.png"
+                    width={24}
+                    height={24}
+                    alt="American Express"
+                  />
+                </a>
+                <a href="">
+                  <Image
+                    src="/eng1.png"
+                    className="love-img"
+                    width={31}
+                    height={11}
+                    alt="American Express"
+                  />
+                </a>
+                <a href="">
+                  <Image
+                    src="/arrow1.png"
+                    className="love-img"
+                    width={16}
+                    height={16}
+                    alt="American Express"
+                    style={{ cursor: "pointer" }}
+                  />
+                </a>
               </div>
             </nav>
           </div>

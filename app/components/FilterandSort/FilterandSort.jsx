@@ -20,10 +20,10 @@ const FilterandSort = () => {
     <>
       <div className="container border-top border-bottom pt-4 pb-2">
         <div className="row text-dark">
-          <div className="col-1 text-dark">
+          <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1 text-dark">
             <ProductSearch />
           </div>
-          <div className="col-2 d-flex">
+          <div className="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 d-flex">
             <a href="#" onClick={toggleFilters}>
               <IoIosArrowForward style={arrowStyle} />
             </a>
@@ -31,8 +31,8 @@ const FilterandSort = () => {
               {showFilters ? "HIDE FILTER" : "SHOW FILTER"}
             </p>
           </div>
-          <div className="col-7"></div>
-          <div className="col-2 d-flex justify-content-center">
+          <div className="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 col-xxl-7"></div>
+          <div className="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 d-flex justify-content-center">
             <p className="text-dark">RECOMMENDED</p>
             <a href="">
               <IoIosArrowDown style={{ width: "16px", height: "16px" }} />

@@ -29,7 +29,13 @@ const Footer = () => {
               </li>
               <li style={{ display: "flex", alignItems: "center", gap: "2px" }}>
                 <div className="d-flex align-items-center justify-content-start gap-1">
-                  <Image src="/usa.png" width={24} height={24} alt="Google" layout="responsive" />
+                  <Image
+                    src="/usa.png"
+                    width={24}
+                    height={24}
+                    alt="Google"
+                    layout="responsive"
+                  />
                   <p style={{ margin: "0" }}> * USD</p>
                 </div>
               </li>
@@ -70,7 +76,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 mt-5">
-            <ul  className="list-group">
+            <ul className="list-group">
               <li>
                 <h3>QUICK LINKS</h3>
               </li>
@@ -102,9 +108,27 @@ const Footer = () => {
             <Image src="/followus.png" width={76} height={32} alt="Follow Us" />
             <h6 className="text-white">metta muse ACCEPTS</h6>
             <div className="d-flex align-items-start gap-2">
-              <Image src="/google.png" width={56} height={35} alt="Google" layout="responsive" />
-              <Image src="/mc.png" width={56} height={35} alt="Mastercard"  layout="responsive"/>
-              <Image src="/pay.png" width={56} height={35} alt="PayPal" layout="responsive"/>
+              <Image
+                src="/google.png"
+                width={56}
+                height={35}
+                alt="Google"
+                layout="responsive"
+              />
+              <Image
+                src="/mc.png"
+                width={56}
+                height={35}
+                alt="Mastercard"
+                layout="responsive"
+              />
+              <Image
+                src="/pay.png"
+                width={56}
+                height={35}
+                alt="PayPal"
+                layout="responsive"
+              />
               <Image
                 src="/amex.png"
                 width={56}
@@ -112,8 +136,20 @@ const Footer = () => {
                 alt="American Express"
                 layout="responsive"
               />
-              <Image src="/apple.png" width={56} height={35} alt="Apple Pay" layout="responsive" />
-              <Image src="/payu.png" width={56} height={35} alt="PayU" layout="responsive" />
+              <Image
+                src="/apple.png"
+                width={56}
+                height={35}
+                alt="Apple Pay"
+                layout="responsive"
+              />
+              <Image
+                src="/payu.png"
+                width={56}
+                height={35}
+                alt="PayU"
+                layout="responsive"
+              />
             </div>
           </div>
         </div>
